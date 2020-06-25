@@ -1,6 +1,6 @@
 {
   "author": "Lucas Veronezzi",
-  "name": "lucasveronezzi/load-dotenv",
+  "name": "@lucasveronezzi/load-dotenv",
   "version": "0.0.1",
   "description": "Automatic dotenv loading based on the build or --env parameter",
   "main": "index.js",
