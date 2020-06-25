@@ -1,0 +1,31 @@
+{
+  "name": "@lucasveronezzi/load-dotenv",
+  "version": "0.0.1",
+  "description": "Automatic dotenv loading based on the build or --env parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasveronezzi/load-dotenv.git"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.2"
+  },
+  "author": "Lucas Veronezzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasveronezzi/load-dotenv/issues"
+  },
+  "homepage": "https://github.com/lucasveronezzi/load-dotenv#readme",
+  "keywords": [
+    "dotenv",
+    "env"
+  ],
+  "engines": {
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+}
