@@ -1,4 +1,5 @@
 {
+  "author": "Lucas Veronezzi",
   "name": "@lucasveronezzi/load-dotenv",
   "version": "0.0.1",
   "description": "Automatic dotenv loading based on the build or --env parameter",
@@ -14,7 +15,6 @@
     "dotenv": "^8.2.0",
     "fs": "^0.0.2"
   },
-  "author": "Lucas Veronezzi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lucasveronezzi/load-dotenv/issues"
@@ -27,5 +27,5 @@
   "engines": {
     "npm": ">= 5.6.0",
     "yarn": ">= 1.6.0"
-  },
+  }
 }
