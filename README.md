@@ -1,9 +1,9 @@
 # Load Dotenv
 
-This package automatic load the package dotenv based on the build or --env parameter
+This package automatic load the package `dotenv` based on the build or --env parameter
 
 ### Default
-Tis package will look in the `process.env.NODE_ENV` to determine which file is to load
+This package will look in the `process.env.NODE_ENV` to determine which file is to load
 
  - `production`:  file name is .env.prod
  - `development`: file name is .env
