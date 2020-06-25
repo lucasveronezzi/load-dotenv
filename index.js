@@ -57,6 +57,4 @@ for (let key in result.parsed) {
   process.env[key] = result.parsed[key]
 }
 
-module.exports = {
-  result.parsed
-}
+module.exports = result.parsed
