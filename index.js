@@ -33,8 +33,12 @@ if (envName === void 0 || envName === '') {
 
 // check file exists
 if (!fs.existsSync(envName)) {
-  console.error(`Load dotenv: '${envName}' file missing`)
-  process.exit(1)
+  envName = nameEnv || '.env'
+  
+  if (nameEnv || !fs.existsSync(envName)) {
+    console.error(`Load dotenv: '${envName}' file missing`)
+    process.exit(1)
+  }
 }
 
 // dotenv options
