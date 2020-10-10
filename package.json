@@ -1,5 +1,5 @@
 {
-  "author": "Lucas Veronezzi",
+  "author": "Lucas Veronezzi <lucasveronezzi_eltic@hotmail.com>",
   "name": "@lucasveronezzi/load-dotenv",
   "version": "0.0.1",
   "description": "Automatic dotenv loading based on the build or --env parameter",
@@ -15,7 +15,7 @@
     "dotenv": "^8.2.0",
     "fs": "^0.0.2"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lucasveronezzi/load-dotenv/issues"
   },
